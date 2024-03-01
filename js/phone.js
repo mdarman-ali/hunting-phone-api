@@ -83,8 +83,7 @@ const showPhonesDetails = (phone) =>{
         <p class="leading-8"><span class="font-semibold">Memory : </span>${phone?.mainFeatures?.memory}</p>
         <p class="leading-8"><span class="font-semibold">Slug: </span>${phone?.slug}</p>
         <p class="leading-8"><span class="font-semibold">Brand : </span>${phone?.brand}</p>
-        <p class="leading-8"><span class="font-semibold">GPS : </span>${phone?.others?.GPS
-        }</p>
+        <p class="leading-8"><span class="font-semibold">GPS : </span>${phone?.others?.GPS || 'No GPS'}</p>
         
     `;
 
